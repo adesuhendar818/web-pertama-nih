@@ -110,7 +110,7 @@ a {
 .parallax {
     background-image: url('assets/foto/sasuke.jpg');
     background-attachment: fixed;
-    background-position: center 200px;
+    background-position: center -100px;
     background-repeat: no-repeat;
     /* background-size: cover; */   /*penyesuaian tambahan */ 
 }
