@@ -87,7 +87,7 @@ a {
     align-items: center;
     gap: 10px;
     text-align: center;
-    margin: 30px auto;
+    margin: 10px auto;
 }
 
 .title {
@@ -110,7 +110,7 @@ a {
 .parallax {
     background-image: url('assets/foto/sasuke.jpg');
     background-attachment: fixed;
-    background-position: center -50px;
+    background-position: bottom center;
     background-repeat: no-repeat;
     /* background-size: cover; */   /*penyesuaian tambahan */ 
 }
@@ -146,6 +146,8 @@ a {
     color: #222;
     padding: 20px;
     box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    margin-top: 20px;
 }
 
 .card-title {
@@ -182,6 +184,7 @@ footer {
     .card-item {
         width: 100%;
         opacity: .9;
+        margin-top: 0;
     }
 
     .container {
