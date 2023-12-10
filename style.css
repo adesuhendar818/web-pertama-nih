@@ -112,7 +112,6 @@ a {
     background-position: center 200px;
     background-repeat: no-repeat;
     /* background-size: cover; */   /*penyesuaian tambahan */ 
-    height: 100vh;
 }
 
 .tentang {
@@ -136,6 +135,7 @@ a {
     justify-content: center;
     align-items: center; 
     gap: 8px;  
+    margin: 70px auto;
 }
 
 .card-item {
@@ -175,6 +175,7 @@ footer {
     .card {
         flex-direction: column;
         gap:0;
+        margin: 0 auto;
     }
 
     .card-item {
